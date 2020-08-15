@@ -1,2 +1,1 @@
-FIREGRAM
-This instagram-like photo gallery app was made using React and Firebase.
+This instagram-like photo gallery app, known as Firegram, was made using React and Firebase.
