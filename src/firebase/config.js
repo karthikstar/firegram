@@ -25,6 +25,9 @@ const projectStorage = firebase.storage();
 // Initialise Firestore Service
 const projectFirestore = firebase.firestore();
 
-export {projectStorage, projectFirestore};
+// firebase server timestamp - a special type of data that firestore uses
+const timestamp = firebase.firestore.FieldValue.serverTimestamp;
+
+export {projectStorage, projectFirestore, timestamp};
 
 // we need to initalise these 2 services on our project dashboard.
